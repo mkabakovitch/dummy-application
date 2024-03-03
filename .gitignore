@@ -1,34 +1,13 @@
-# CAP dummy-application
-_out
-*.db
-*.sqlite
-connection.properties
-default-*.json
-.cdsrc-private.json
-gen/
-node_modules/
-target/
+# Build
+node_modules
+gen
 
-# Web IDE, App Studio
-.che/
-.gen/
+# VitePress
+docs/.vitepress/dist
+docs/.vitepress/cache
 
-# MTA
-*_mta_build_tmp
-*.mtar
-mta_archives/
+# Development
+.vscode
 
 # Other
 .DS_Store
-*.orig
-*.log
-
-*.iml
-*.flattened-pom.xml
-
-# IDEs
-# .vscode
-# .idea
-
-# @cap-js/cds-typer
-@cds-models
