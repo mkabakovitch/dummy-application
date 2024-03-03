@@ -1,0 +1,37 @@
+{
+  "name": "@softproviding/dummy-application",
+  "version": "1.0.0",
+  "description": "Dummy application.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/softproviding/dummy-application.git"
+  },
+  "keywords": [
+    "dummy",
+    "application"
+  ],
+  "author": "Michail Kabakovitch <michail.kabakovitch@softproviding.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/softproviding/dummy-application/issues"
+  },
+  "homepage": "https://softproviding.github.io/dummy-application",
+  "engines": {
+    "node": "^18"
+  },
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^7",
+    "@softproviding/dummy-package": "^1",
+    "express": "^4"
+  },
+  "devDependencies": {
+    "@sap/cds-dk": "^7",
+    "axios": "^1",
+    "jest": "^29"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "test": "jest --silent"
+  }
+}
