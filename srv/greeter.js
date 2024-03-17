@@ -1,4 +1,4 @@
-const { Dummy } = require('@softproviding/dummy-package/dummy')
+const { Dummy } = require('@mkabakovitch/dummy-package/dummy')
 
 module.exports = class GreeterService extends cds.ApplicationService {
 

@@ -1,4 +1,4 @@
-const Mathematic = require('@softproviding/dummy-package/mathematic')
+const Mathematic = require('@mkabakovitch/dummy-package/mathematic')
 
 describe('Mathematic', () => {
 

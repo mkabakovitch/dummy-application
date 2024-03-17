@@ -1,4 +1,4 @@
-namespace softproviding.playground;
+namespace mkabakovitch.playground;
 
 service CalculatorService {
   function add(a : Integer, b : Integer)       returns Integer;

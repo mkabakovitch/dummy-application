@@ -1,28 +1,28 @@
 {
-  "name": "@softproviding/dummy-application",
+  "name": "@mkabakovitch/dummy-service",
   "version": "1.0.0",
-  "description": "Dummy application.",
+  "description": "Dummy CAP service",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/softproviding/dummy-application.git"
+    "url": "git+https://github.com/mkabakovitch/dummy-cap-service.git"
   },
   "keywords": [
     "dummy",
     "application"
   ],
-  "author": "Michail Kabakovitch <michail.kabakovitch@softproviding.com>",
+  "author": "Michail Kabakovitch <michail.kabakovitch@mkabakovitch.com>",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/softproviding/dummy-application/issues"
+    "url": "https://github.com/mkabakovitch/dummy-cap-service/issues"
   },
-  "homepage": "https://softproviding.github.io/dummy-application",
+  "homepage": "https://mkabakovitch.github.io/dummy-cap-service",
   "engines": {
     "node": "^18"
   },
   "private": true,
   "dependencies": {
+    "@mkabakovitch/dummy-package": "^1",
     "@sap/cds": "^7",
-    "@softproviding/dummy-package": "^1",
     "express": "^4"
   },
   "devDependencies": {
