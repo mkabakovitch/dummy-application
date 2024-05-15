@@ -17,11 +17,11 @@
   },
   "homepage": "https://mkabakovitch.github.io/dummy-cap-service",
   "engines": {
-    "node": "^18"
+    "node": "18"
   },
   "private": true,
   "dependencies": {
-    "@mkabakovitch/dummy-package": "^1",
+    "@mkabakovitch/dummy": "^1",
     "@sap/cds": "^7",
     "express": "^4"
   },

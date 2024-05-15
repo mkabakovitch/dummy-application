@@ -1,10 +1,10 @@
-const { Dummy } = require('@mkabakovitch/dummy-package/dummy')
+const { Greeter } = require('@mkabakovitch/dummy/greeter')
 
 module.exports = class GreeterService extends cds.ApplicationService {
 
   greet(person) {
-    const dummy = new Dummy();
-    return dummy.greet(person);
+    const greeter = new Greeter();
+    return greeter.greet(person);
   }
 }
 

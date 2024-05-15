@@ -1,4 +1,4 @@
-const Mathematic = require('@mkabakovitch/dummy-package/mathematic')
+const Mathematic = require('@mkabakovitch/dummy/mathematic')
 
 module.exports = class CalculatorService extends cds.ApplicationService {
 
