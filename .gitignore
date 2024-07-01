@@ -1,6 +1,7 @@
 # Build
 node_modules
 gen
+mta_archives
 
 # VitePress
 docs/.vitepress/dist
