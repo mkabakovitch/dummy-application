@@ -17,7 +17,7 @@
   },
   "homepage": "https://mkabakovitch.github.io/dummy-cap-service",
   "engines": {
-    "node": "18"
+    "node": "20"
   },
   "private": true,
   "dependencies": {
