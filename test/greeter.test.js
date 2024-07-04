@@ -1,4 +1,4 @@
-const { greeting, Greeter } = require('@mkabakovitch/dummy-package/greeter');
+const { greeting, Greeter } = require('@mkabakovitch/dummy/greeter');
 
 describe('Greeter Module', () => {
 

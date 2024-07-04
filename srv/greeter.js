@@ -1,6 +1,6 @@
-const { Greeter } = require('@mkabakovitch/dummy/greeter')
+const { Greeter } = require('@mkabakovitch/dummy/greeter');
 
-module.exports = class GreeterService extends cds.ApplicationService {
+class GreeterService extends cds.ApplicationService {
 
   greet(person) {
     const greeter = new Greeter();
@@ -8,3 +8,4 @@ module.exports = class GreeterService extends cds.ApplicationService {
   }
 }
 
+module.exports = GreeterService;

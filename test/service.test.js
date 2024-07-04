@@ -1,5 +1,5 @@
 const cds = require('@sap/cds')
-const Greeter = require('@mkabakovitch/dummy-package/greeter')
+const { Greeter } = require('@mkabakovitch/dummy/greeter')
 
 describe('Dummy CAP Service', () => {
 
@@ -7,10 +7,9 @@ describe('Dummy CAP Service', () => {
 
   describe('Greeter Service', () => {
 
-    const max = 'Max';
-
     test('greet', async () => {
-      const { data } = await GET`/odata/v4/greeter/greet(person=${max})`;
+      const max = 'Max';
+      const { data } = await GET`/odata/v4/greeter/greet(person='${max}')`;
       const greeter = new Greeter();
       const expected = greeter.greet(max);
       const actual = data.value;
